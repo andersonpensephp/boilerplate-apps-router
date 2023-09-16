@@ -1,9 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should... 1`] = `
-<div>
+<main
+  class="sc-beyTiQ eiTA-DC"
+>
   <h1>
     Main
   </h1>
-</div>
+</main>
 `;
