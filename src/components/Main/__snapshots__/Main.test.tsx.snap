@@ -1,8 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should... 1`] = `
+.c0 {
+  color: red;
+  background: blue;
+  display: flex;
+  justify-content: center;
+}
+
 <main
-  class="sc-beyTiQ eiTA-DC"
+  class="c0"
 >
   <h1>
     Main
