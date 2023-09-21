@@ -4,7 +4,9 @@ import Main from './Main'
 describe('<Main />', () => {
   it('should...', () => {
     const { container } = render(<Main />)
-    expect(screen.getByRole('heading', { name: /Main/i })).toBeInTheDocument()
+    expect(
+      screen.getByRole('heading', { name: /Reactjs/i })
+    ).toBeInTheDocument()
     //Utilizar snapshot somente quando você quer garantir uma estrutura no código
     expect(container.firstChild).toMatchSnapshot()
   })
