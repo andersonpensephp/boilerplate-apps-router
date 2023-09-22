@@ -6,7 +6,12 @@ Boilerplate built with nextjs app router.
 
 ## Getting Started
 
-First, run the development server:
+```
+npx create-next-app --example https://github.com/andersonpensephp/boilerplate-apps-router
+
+```
+
+run the development server:
 
 ```bash
 npm run dev
