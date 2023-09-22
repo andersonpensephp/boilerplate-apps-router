@@ -1,8 +1,6 @@
-import { PropsWithChildren } from 'react'
-
 import GlobalStyles from '@/styles/globals'
 
-export function Providers({ children }: { children: PropsWithChildren }) {
+export function Providers({ children }: { children: React.ReactNode }) {
   return (
     <>
       <GlobalStyles />
